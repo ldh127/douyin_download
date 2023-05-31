@@ -1,0 +1,47 @@
+[W 22:55:39.991 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 22:55:40.007 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.6.3
+[W 22:55:40.215 NotebookApp] Loading JupyterLab as a classic notebook (v6) extension.
+[W 2023-05-18 22:55:40.218 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-05-18 22:55:40.218 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-05-18 22:55:40.218 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-05-18 22:55:40.218 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-05-18 22:55:40.218 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-05-18 22:55:40.221 LabApp] JupyterLab extension loaded from /home/ubuntu/miniconda3/lib/python3.7/site-packages/jupyterlab
+[I 2023-05-18 22:55:40.221 LabApp] JupyterLab application directory is /home/ubuntu/miniconda3/share/jupyter/lab
+[I 22:55:40.225 NotebookApp] Serving notebooks from local directory: /home/ubuntu/all_root/workspace_root/jupyter_workspace
+[I 22:55:40.225 NotebookApp] Jupyter Notebook 6.5.2 is running at:
+[I 22:55:40.225 NotebookApp] http://ubuntu-virtual-machine:10000/
+[I 22:55:40.225 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 22:56:04.617 NotebookApp] 302 GET / (192.168.1.2) 0.890000ms
+[I 22:56:04.631 NotebookApp] 302 GET /tree? (192.168.1.2) 1.970000ms
+[W 22:56:08.491 NotebookApp] Not allowing login redirect to '/tree?'
+[I 22:56:08.492 NotebookApp] 302 POST /login?next=%2Ftree%3F (192.168.1.2) 71.310000ms
+[I 22:56:09.659 NotebookApp] 302 GET / (192.168.1.2) 0.970000ms
+[W 22:56:12.819 NotebookApp] 404 GET /static/components/marked/lib/marked.js?v=20230518225539 (192.168.1.2) 11.060000ms referer=http://192.168.1.12:10000/tree?
+[I 22:56:18.030 NotebookApp] Creating new notebook in 
+[I 22:56:18.093 NotebookApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[I 22:56:20.836 NotebookApp] Kernel started: cd3f3c12-4a43-4587-bebc-cdf2ee6fb31b, name: python3
+[I 22:58:20.781 NotebookApp] Saving file at /Untitled.ipynb
+/home/ubuntu/miniconda3/lib/python3.7/site-packages/nbformat/__init__.py:128: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+/home/ubuntu/miniconda3/lib/python3.7/site-packages/notebook/services/contents/manager.py:353: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate_nb(model['content'])
+[I 01:10:27.892 NotebookApp] Starting buffering for cd3f3c12-4a43-4587-bebc-cdf2ee6fb31b:c5c761d96bba418a9f0235d86c2300d7
+[I 09:35:10.047 NotebookApp] Restoring connection for cd3f3c12-4a43-4587-bebc-cdf2ee6fb31b:c5c761d96bba418a9f0235d86c2300d7
+[I 09:40:52.695 NotebookApp] 302 GET / (127.0.0.1) 1.290000ms
+[I 09:40:52.892 NotebookApp] 302 GET /tree (127.0.0.1) 2.440000ms
+[I 09:44:10.162 NotebookApp] Saving file at /Untitled.ipynb
+[W 10:09:05.192 NotebookApp] 404 GET /static/components/marked/lib/marked.js?v=20230518225539 (192.168.1.2) 2.370000ms referer=http://192.168.1.12:10000/tree?
+[I 10:10:10.169 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:14:10.044 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:16:30.218 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:30:10.122 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:30:52.338 NotebookApp] Starting buffering for cd3f3c12-4a43-4587-bebc-cdf2ee6fb31b:c5c761d96bba418a9f0235d86c2300d7
+[W 10:30:52.807 NotebookApp] 404 GET /static/components/marked/lib/marked.js?v=20230518225539 (192.168.1.2) 3.010000ms referer=http://192.168.1.12:10000/tree
+[W 10:31:01.937 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 10:33:03.208 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:36:16.182 NotebookApp] Saving file at /Untitled.ipynb
+[I 11:44:16.548 NotebookApp] Starting buffering for cd3f3c12-4a43-4587-bebc-cdf2ee6fb31b:379657aff1b34ab0830fd8a408725e9e
+[I 13:46:29.160 NotebookApp] Starting buffering for cd3f3c12-4a43-4587-bebc-cdf2ee6fb31b:04678f46b02f40d08746ebc7eb9e4891
+[I 21:52:40.530 NotebookApp] Starting buffering for cd3f3c12-4a43-4587-bebc-cdf2ee6fb31b:379657aff1b34ab0830fd8a408725e9e
+[I 22:06:07.415 NotebookApp] Restoring connection for cd3f3c12-4a43-4587-bebc-cdf2ee6fb31b:379657aff1b34ab0830fd8a408725e9e
